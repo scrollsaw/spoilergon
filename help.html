@@ -1,0 +1,51 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>spoilergon help and tips</title>
+
+  </head>
+  <body>
+<b>spoilergon</b>
+<br><br>
+Spoilergon works by using keywords to create filters to block articles
+<br><br>
+There are three types of keywords that can be used individually OR in groups to identify articles to block.
+<ul>
+<li><b>tag/category:</b> Articles can have tags or categories. Enter a matching keyword here to block all articles with a tag that matches the keyword.
+</li>
+<li><b>byline:</b> Articles can have bylines (or authors). Enter a matching keyword here to block all articles with a byline that matches the keyword.
+</li>
+<li><b>title or copy keyword:</b> Enter a matching keyword here to block all articles where the keyword appears in the title or initial copy.
+</li>
+</ul>
+When creating filters that use a combination of more than one type, both must be present to block the article.<br>
+Example : tag =  "Opinion" and title = "Game of Thrones" will only block articles tagged as "Opinion" with "Game of Thrones" in the title or copy.
+<br><br>
+<b>Tips:</b>
+<ul>
+<li>Filters work across all three sites automatically.</li>
+<li>Filters use exact matching. So "Mr Robot" (missing the period) will NOT block articles if they use the phrase "Mr. Robot" </li>
+<li>Depending on where articles appear on the page, bylines might not be shown. Therefore filters that use them won't be able to block them.</li>
+<li>When a filter has more then one keyword and if one is not shown on the article (ex: byline), spoilergon will still block the article it it matches the other tags.</li>
+<li>Play around with it, you'll get the hang of it quickly.</li>
+</ul>
+<b>Example:</b>
+<br>
+To block Game of Thrones spoilers:<br>
+<ol>
+  <li>Create one filter with tag = blank, byline = blank and title/copy = "Game of Thrones"
+  <br>That should block any articles with Game of Thrones in the title or copy/description.
+  </li>
+<li>To ensure that no spoilers slip through, create another filter with tag = "Game of Thrones" byline = blank and title = blank.<br>
+That will block any articles tagged with "Game of Thrones", even if the title or copy doesn't use the phrase "Game of Thrones"</li>
+</ol>
+enjoy!
+<br><br>
+btw: nothing but love for the polygon, verge and vox teams. &#x2764; &#x2764; &#x2764;
+  </body>
+</html>

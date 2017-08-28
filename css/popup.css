@@ -1,0 +1,213 @@
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400);
+
+body {
+font: normal normal 13px/16px "Open Sans", sans-serif;
+background: white;
+padding: 0px 0px 0px 0px;
+}
+
+form {
+
+}
+
+input{
+padding: 4px 15px 4px 5px;
+}
+
+.title{
+  width: 250px;
+  background-color:#ffffff;
+  color:#000000;
+  padding: 10px;
+font-size:18px;
+font-weight: bold;
+border-bottom: 1px solid #000000;
+}
+
+.input_panel{
+  width: 250px;
+  background-color:#ffffff;
+  color:#000000;
+  padding: 10px;
+margin-top:2px;
+border-bottom: 1px solid #000000;
+}
+
+.filter_panel{
+  width: 250px;
+  background-color:#ffffff;
+  color:#000000;
+  padding: 10px;
+margin-top:2px;
+}
+
+.inputs{
+
+}
+
+.instruct{
+  padding-bottom: 10px;
+  font-style: italic;
+}
+
+.and{
+  font-size:18px;
+  font-weight: bold;
+  text-align: center;
+  margin-top:2px;
+  margin-bottom:2px;
+}
+
+.tagdiv{
+
+  background-color:#fc999b;
+  padding: 6px;
+border-radius: 5px;
+margin-top:2px;
+}
+
+.authordiv{
+
+  background-color:#99C6FC;
+
+  padding: 6px;
+border-radius: 5px;
+
+margin-top:2px;
+}
+
+.searchdiv{
+
+  background-color:#9F99FC;
+
+  padding: 6px;
+border-radius: 5px;
+
+margin-top:2px;
+}
+
+.input_label{
+color:#FFFFFF;
+  font-weight: bold;
+}
+
+.buttondiv{
+text-align: right;
+
+}
+
+.filters_title{
+font-weight: bold;
+
+}
+
+.filters_div{
+
+
+}
+
+.filters_instruct{
+  padding-top: 5px;
+  font-style: italic;
+
+}
+
+
+.tagfilter{
+  background-color:#fc999b;
+  padding: 6px;
+border-radius: 5px;
+color:#FFFFFF;
+font-weight: bold;
+}
+
+.authorfilter{
+  background-color:#99C6FC;
+
+  padding: 6px;
+border-radius: 5px;
+color:#FFFFFF;
+font-weight: bold;
+}
+
+.searchfilter{
+  background-color:#9F99FC;
+
+  padding: 6px;
+border-radius: 5px;
+color:#FFFFFF;
+font-weight: bold;
+}
+
+
+#button{
+display: inline-block;
+background-color:#666666;
+color:#FFFFFF;
+border-radius: 5px;
+text-align:center;
+margin-top:10px;
+font-weight: bold;
+padding: 5px 15px;
+}
+
+#button:hover{
+cursor: pointer;
+opacity: .8;}
+
+ #clear{
+ display: inline-block;
+ background-color:#666666;
+ color:#FFFFFF;
+ border-radius: 5px;
+ text-align:center;
+ margin-top:2px;
+ font-weight: bold;
+ padding: 5px 15px;
+ }
+
+ #clear:hover{
+ cursor: pointer;
+ opacity: .8;}
+
+
+ .helpdiv{
+ text-align: right;
+
+ }
+
+  #help{
+
+
+  color:#9F99FC;
+
+  font-weight: bold;
+  
+  }
+
+  #help:hover{
+  cursor: pointer;
+  opacity: .8;}
+
+ ol {
+   padding-left: 0px;
+
+list-style-type: none;
+ }
+
+ ol li {
+   padding: 5px;
+   color:#000;
+   border: 1px dashed #000000;
+
+   border-radius: 5px;
+
+margin-top: 8px;
+ }
+
+ .strike{text-decoration: line-through;}
+
+ li:hover{
+   cursor: pointer;
+  }

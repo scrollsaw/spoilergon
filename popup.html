@@ -1,0 +1,42 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title></title>
+     <link rel="stylesheet" href="/css/popup.css">
+  </head>
+  <body>
+    <script src="scripts/jquery.min.js"></script>
+    <script src="scripts/popup.js"></script>
+
+    <div class="title">spoilergon</div>
+    <div class="input_panel">
+      <div class="instruct">To block articles on theverge.com, polygon.com, and vox.com use one or more to create a filter. Leave blank to wildcard. Reload to see changes.
+For full instructions, click <a id="help">here</a>
+      </div>
+
+      <div class="inputs">
+        <form name="toDoList">
+          <div class="tagdiv"><div class="input_label">tag/category</div><input type="text" size="26" name="TagItem"/></div>
+          <div class="and">+</div>
+          <div class="authordiv"><div class="input_label">byline</div><input type="text" size="26" name="AuthorItem"/></div>
+          <div class="and">+</div>
+          <div class="searchdiv"><div class="input_label">title or copy keyword</div><input type="text" size="26" name="SearchItem"/></div>
+        </form>
+      </div>
+      <div class="buttondiv"><div id="button">create filter</div></div>
+
+    </div>
+    <div class="filter_panel">
+      <div class="filters_title">Active Filters</div>
+      <div class="filters_instruct">Double click on a filter to remove it.</div>
+      <div class="filters_div"><ol id="filter_list"></ol></div>
+      <div class="buttondiv"><div id="clear">clear all</div></div>
+    </div>
+
+  </body>
+</html>
